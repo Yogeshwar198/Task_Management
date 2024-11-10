@@ -84,7 +84,7 @@ http://localhost:4000
 
 ## Features
 - **Node.js with Express**: Backend API framework built on Node.js with Express and TypeScript.
-- **Endpoints:
+- **Endpoints**:
 GET /tasks: Fetch all tasks.
 GET /tasks/:id: Fetch a single task by ID.
 POST /tasks: Create a new task.
