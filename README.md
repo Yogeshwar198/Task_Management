@@ -85,11 +85,11 @@ http://localhost:4000
 ## Features
 - **Node.js with Express**: Backend API framework built on Node.js with Express and TypeScript.
 - **Endpoints**:
-GET /tasks: Fetch all tasks.
-GET /tasks/:id: Fetch a single task by ID.
-POST /tasks: Create a new task.
-PUT /tasks/:id: Update a task by ID.
-DELETE /tasks/:id: Delete a task by ID.
+- GET /tasks: Fetch all tasks.
+- GET /tasks/:id: Fetch a single task by ID.
+- POST /tasks: Create a new task.
+- PUT /tasks/:id: Update a task by ID.
+- DELETE /tasks/:id: Delete a task by ID.
 
 - **Async Handling**: Implements advanced async handling with a streaming API to integrate external data with task details.
 - **Database**: Uses an in-memory database for simplicity or lightweight databases like SQLite or MongoDB.
