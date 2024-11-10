@@ -51,6 +51,7 @@ http://localhost:3000
 - **Error Handling & UX**: Includes loading indicators, error messages, and good UX practices.
 
 ## Backend
+
 ### Technologies Used:
 
 - **Express**: A fast, unopinionated web framework for Node.js.
@@ -65,20 +66,20 @@ http://localhost:3000
 To run this application locally, follow these steps:
 
 
-2. **Navigate to the project directory:**
+1. **Navigate to the project directory:**
 ```bash
  cd backend
 ```
 
-3. **Install the dependencies:**
+2. **Install the dependencies:**
 ```bash
 npm install
 ```
-4. **Run the application:**
+3. **Run the application:**
 ```bash
 npm run server
 ```
-5. **Open your browser and visit:**
+4. **Open your browser and visit:**
 ```bash
 http://localhost:4000
 ```
