@@ -1,9 +1,6 @@
-# My Project
-
-## Task Management
+# Task Management
 
 This is a full-stack task management application built using React for the frontend and Node.js with Express for the backend. It allows users to manage tasks across multiple categories such as To Do, In Progress, Done, and Timeout. The application interacts with a backend API to perform CRUD operations on tasks and includes features such as form validation, error handling, and timeout management. Tasks that exceed a certain time limit are automatically moved to the "Timeout" category.
-
 ---
 
 ## Frontend
