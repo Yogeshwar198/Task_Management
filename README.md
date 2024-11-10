@@ -10,13 +10,8 @@ This is a full-stack task management application built using React for the front
 - **React**: A JavaScript library for building user interfaces.
 - **TailwindCSS**: A utility-first CSS framework for rapidly building custom designs.
 - **Axios**: A promise-based HTTP client for the browser and Node.js.
-- **Task List**: Displays tasks with relevant information.
-- **Task Item**: Individual task details displayed in a structured format.
-- **Task Form**: Allows adding and editing tasks with proper form validation and error handling.
-- **State Management**: Uses React hooks or the Context API for managing the state across the application.
-- **API Integration**: Uses async/await to make API calls to the backend.
-- **Timeout Handling**: Automatically moves tasks to the "Timeout" category if their duration exceeds a specific limit.
-- **Error Handling & UX**: Includes loading indicators, error messages, and good UX practices.
+- **React Icons**: A library that provides a set of customizable icons as React components. It allows you to easily integrate popular icon sets like FontAwesome, Material Design, and more.
+
 
 ### Installation (Frontend)
 
@@ -44,6 +39,16 @@ npm start
 ```bash
 http://localhost:3000
 ```
+
+## Features
+
+- **Task List**: Displays tasks with relevant information.
+- **Task Item**: Individual task details displayed in a structured format.
+- **Task Form**: Allows adding and editing tasks with proper form validation and error handling.
+- **State Management**: Uses React hooks or the Context API for managing the state across the application.
+- **API Integration**: Uses async/await to make API calls to the backend.
+- **Timeout Handling**: Automatically moves tasks to the "Timeout" category if their duration exceeds a specific limit.
+- **Error Handling & UX**: Includes loading indicators, error messages, and good UX practices.
 
 ## Backend
 ### Technologies Used:
@@ -76,6 +81,21 @@ npm run server
 ```bash
 http://localhost:4000
 ```
+
+## Features
+- **Node.js with Express**: Backend API framework built on Node.js with Express and TypeScript.
+- **Endpoints:
+GET /tasks: Fetch all tasks.
+GET /tasks/:id: Fetch a single task by ID.
+POST /tasks: Create a new task.
+PUT /tasks/:id: Update a task by ID.
+DELETE /tasks/:id: Delete a task by ID.
+
+- **Async Handling**: Implements advanced async handling with a streaming API to integrate external data with task details.
+- **Database**: Uses an in-memory database for simplicity or lightweight databases like SQLite or MongoDB.
+- **Timeout Feature**: Tasks will be moved to the "Timeout" category if their duration exceeds a certain threshold.
+- **Error Handling**: Robust error handling and validation for all endpoints.
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
